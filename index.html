@@ -9,7 +9,10 @@
 	<title>Instagram</title>
 
 	<!-- CSS -->
+ 
+	<link rel="stylesheet" href="/css/reset.css">
 	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://kit.fontawesome.com/b3ed425090.js" crossorigin="anonymous"></script>
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
@@ -17,16 +20,16 @@
 </head>
 <body>
 	<!-- CABEÇALHO -->
-	<header>
+	<header class="containerPrincipal">
 		<a href="https://www.instagram.com/" class="instagram-logo">
 			<figure>
-				<img src="img/logo.png" alt="Instagram logo">
+				<img src="img/logo-kenziegram.png" alt="Instagram logo">
 			</figure>
 		</a>
 	</header>
 
 	<!-- CONTEÚDO DA PÁGINA -->
-	<main>
+	<main class="containerPrincipal">
 
 		<!-- CONTEÚDO SOBRE O USUÁRIO -->
 		<article class="profile-content">
@@ -52,13 +55,15 @@
 				<h2> Kenzie Academy Brasil </h2>
 				<ul>
 					<li>
-						<p>Nós investimos em você. Aprenda programação sem mensalidade até conseguir uma remuneração de pelo menos R$3.000 por mês.</p>
+						<p>Nós investimos em você.
+							<span> Aprenda programação sem mensalidade até conseguir uma remuneração de pelo menos R$3.000 por mês.</span>
+						</p>
 					</li>
 					<li>
 						<p>Inscreva-se através do link.</p>
 					</li>
 					<li>
-						<a href="https://linktr.ee/kenzieacademybr">linktr.ee/kenzieacademybr</a>
+						<i class="fas fa-map-pin"><a href="https://linktr.ee/kenzieacademybr">linktr.ee/kenzieacademybr</a></i>
 					</li>
 				</ul>
 			</section>
@@ -87,9 +92,9 @@
 
 			<!-- MENU DE POSTS -->
 			<nav>
-				<a href="#">Posts</a>
-				<a href="#">Igtv</a>
-				<a href="#">Tagged</a>
+				<i class="fas fa-border-all"><a  href="#">Posts</a></i>
+				<i class="fas fa-tv"><a href="#">Igtv</a></i>
+				<i class="far fa-id-badge"><a href="#">Tagged</a></i>
 			</nav>
 
 			<!-- LISTA DE POSTS -->
@@ -153,7 +158,7 @@
 	</main>
 
 	<!-- RODAPÉ -->
-	<footer>
+	<footer class="containerPrincipal">
 
 		<!-- MENU RODAPÉ -->
 		<nav class="footer-nav">
